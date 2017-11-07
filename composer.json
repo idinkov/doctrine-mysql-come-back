@@ -27,7 +27,8 @@
         "preferred-install": "dist",
         "bin-dir": "bin"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "scripts": {
         "phpcs": "php-cs-fixer fix --level=psr2 -v --diff --dry-run src/",
         "phpcs-fix": "php-cs-fixer fix --level=psr2 -v --diff src/"
